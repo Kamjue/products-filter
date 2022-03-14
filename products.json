@@ -1,0 +1,46 @@
+{
+	[
+		{
+			id: 1,
+			name: "Laptop 1",
+			type: "laptop",
+			price: 400,
+			image: "https://luisjoselopezd.github.io/product-filter/images/laptop1.jpg"
+		},
+		{
+			id: 2,
+			name: "Laptop 2",
+			type: "laptop",
+			price: 700,
+			image: "https://luisjoselopezd.github.io/product-filter/images/laptop2.jpg"
+		},
+		{
+			id: 3,
+			name: "Laptop 3",
+			type: "laptop",
+			price: 500,
+			image: "https://luisjoselopezd.github.io/product-filter/images/laptop3.jpg"
+		},
+		{
+			id: 4,
+			name: "Phone 1",
+			type: "phone",
+			price: 120,
+			image: "https://luisjoselopezd.github.io/product-filter/images/phone1.png"
+		},
+		{
+			id: 5,
+			name: "Phone 2",
+			type: "phone",
+			price: 300,
+			image: "https://luisjoselopezd.github.io/product-filter/images/phone2.jpg"
+		},
+		{
+			id: 5,
+			name: "Phone 3",
+			type: "phone",
+			price: 250,
+			image: "https://luisjoselopezd.github.io/product-filter/images/phone3.jpg"
+		}
+	]
+}
