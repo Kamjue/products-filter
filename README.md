@@ -1,2 +1,2 @@
-# products-filter
+# react-filter
 Testing React
