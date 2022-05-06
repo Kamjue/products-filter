@@ -1,0 +1,132 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: bisque;
+	font-family: sans-serif;
+}
+
+#product-app {
+	width: auto;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#nav-wrapper {
+	position: absolute;
+	top: 0;
+	width: 90%;
+	height: 20%;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#title {
+	text-align: center;
+}
+
+#separator {
+	width: 85%;
+	max-width: 740px;
+	margin: 20px 0;
+	border-top: 2px solid brown;
+}
+
+#filter-buttons {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+button {
+	padding: 20px 50px;
+	color: white;
+	background-color: chocolate;
+	border-radius: 10px;
+	border-color: brown;
+}
+
+#product-items {
+	margin-top: 20vh;
+	display: grid;
+	grid-template-columns: repeat(3, 3fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	list-style-type: none;
+}
+
+.p-item {
+	display: flex;
+	max-height: 250px;
+	padding: 10px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.p-img {
+	width: 200px;
+	max-height: 150px;
+	margin-bottom: 10px;
+	object-fit: contain;
+}
+
+.p-desc {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.p-price {
+	font-weight: bold;
+}
+
